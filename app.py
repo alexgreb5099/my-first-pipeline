@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, DevOps World! Это мой второй пуск CI"
+    return "Hello, DevOps World! I can do ci cd"
 
 # Это нужно для локального запуска, но не для продакшена
 # if __name__ == '__main__':
